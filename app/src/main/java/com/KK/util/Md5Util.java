@@ -1,5 +1,7 @@
 package com.KK.util;
 
+import android.os.Message;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
