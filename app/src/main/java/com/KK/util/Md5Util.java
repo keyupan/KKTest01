@@ -18,4 +18,5 @@ public class Md5Util {
             throw new RuntimeException(e);
         }
     }
+
 }

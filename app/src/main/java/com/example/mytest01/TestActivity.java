@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.KK.util.Md5Util;
+
 public class TestActivity extends AppCompatActivity {
 
     @Override
@@ -19,6 +21,7 @@ public class TestActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(TestActivity.this,"you clicked button",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TestActivity.this,Md5Util.getMD5String("123"),Toast.LENGTH_SHORT).show();
             }
         });
     }
